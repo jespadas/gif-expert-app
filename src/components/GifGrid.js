@@ -8,7 +8,7 @@ export const GifGrid = ({ category }) => {
 
     return (
         <>
-            <h3 className="animate__animated animate__bounce">{category}</h3>
+            <h3 className="animate__animated animate__zoomIn">{category}</h3>
 
             {loading && <p className="animate__animated animate__flash">LOADING...</p>}
 

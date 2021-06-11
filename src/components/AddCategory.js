@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 export const AddCategory = ({ setCategories }) => {
 
-    const [inputValue, setInputValue] = useState("Ingresa la categoria que quieras");
+    const [inputValue, setInputValue] = useState("");
 
     const handleInputChange = (e) => {
         setInputValue("");
@@ -21,6 +21,7 @@ export const AddCategory = ({ setCategories }) => {
 
     return (
         <form onSubmit={handleSubmit}>
+            <p>Submit a new category: </p>
             <input
                 type="text"
                 value={inputValue}
