@@ -4,7 +4,12 @@ exports[`Pruebas en <GifGridItem /> Debe mostrar el componente correctamente 1`]
 <div
   className="animate__animated animate__zoomIn"
 >
-  <img />
-  <p />
+  <img
+    alt="el titulo"
+    src="https://localhost:3000/img.png"
+  />
+  <p>
+    el titulo
+  </p>
 </div>
 `;
